@@ -19,7 +19,7 @@
 	],
 	"autoload" : {
 		"psr-4" : {
-			"CSDT\\CollectionsBundle" : "src/CSDT/CollectionsBundle/"
+			"CSDT\\CollectionsBundle\\" : "src/CSDT/CollectionsBundle/"
 		}
 	},
 	"require" : {
