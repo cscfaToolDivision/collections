@@ -3,6 +3,20 @@
 /app/logs/*
 !app/cache/.gitkeep
 !app/logs/.gitkeep
+/app
+/var
+/vendor
+/web
+/bin
+/tests
+/phpunit.xml.dist
+/composer.lock
+/.DS_Store
+/.buildpath
+/.project
+/.settings
+*.DS_Store
+/src/.htaccess
 
 # Email spool folder
 /app/spool/*
