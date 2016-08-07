@@ -1,0 +1,28 @@
+{
+	"name" : "cscfa_tool_division/collections",
+	"type" : "symfony-bundle",
+	"description" : "This bundle provide collections class and method to store data",
+	"keywords" : [
+		"bundle",
+		"collection",
+		"collections",
+		"cscfa",
+		"tool",
+		"division"
+	],
+	"homepage" : "http://cscfa.fr",
+	"license" : "MIT",
+	"authors" : [{
+			"name" : "Matthieu VALLANCE",
+			"email" : "matthieu.vallance@cscfa.fr"
+		}
+	],
+	"autoload" : {
+		"psr-4" : {
+			"CSDT\\CollectionsBundle" : "src/CSDT/CollectionsBundle/"
+		}
+	},
+	"require" : {
+		"symfony/symfony" : "~3.1@stable"
+	}
+}
