@@ -15,7 +15,6 @@
 /.buildpath
 /.project
 /.settings
-*.DS_Store
 /src/.htaccess
 
 # Email spool folder
