@@ -26,11 +26,12 @@ use Symfony\Component\DependencyInjection\Loader;
  * This is the class that loads and manages
  * the CSDTCollectionsBundle configuration.
  *
- * @category Extension
- * @package  Hephaistos
- * @author   matthieu vallance <matthieu.vallance@cscfa.fr>
- * @license  MIT <https://opensource.org/licenses/MIT>
- * @link     http://cscfa.fr
+ * @category           Extension
+ * @package            Hephaistos
+ * @author             matthieu vallance <matthieu.vallance@cscfa.fr>
+ * @license            MIT <https://opensource.org/licenses/MIT>
+ * @link               http://cscfa.fr
+ * @codeCoverageIgnore
  */
 class CSDTCollectionsExtension extends Extension
 {

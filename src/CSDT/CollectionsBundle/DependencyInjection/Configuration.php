@@ -25,11 +25,12 @@ use Symfony\Component\Config\Definition\ConfigurationInterface;
  * configuration from your app/config files and
  * the CSDTCollectionsBundle.
  *
- * @category Configuration
- * @package  Hephaistos
- * @author   matthieu vallance <matthieu.vallance@cscfa.fr>
- * @license  MIT <https://opensource.org/licenses/MIT>
- * @link     http://cscfa.fr
+ * @category           Configuration
+ * @package            Hephaistos
+ * @author             matthieu vallance <matthieu.vallance@cscfa.fr>
+ * @license            MIT <https://opensource.org/licenses/MIT>
+ * @link               http://cscfa.fr
+ * @codeCoverageIgnore
  */
 class Configuration implements ConfigurationInterface
 {

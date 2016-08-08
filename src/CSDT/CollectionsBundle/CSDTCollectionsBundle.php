@@ -23,11 +23,12 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  * This bundle provide base class for perform
  * php collections.
  *
- * @category Bundle
- * @package  Hephaistos
- * @author   matthieu vallance <matthieu.vallance@cscfa.fr>
- * @license  MIT <https://opensource.org/licenses/MIT>
- * @link     http://cscfa.fr
+ * @category           Bundle
+ * @package            Hephaistos
+ * @author             matthieu vallance <matthieu.vallance@cscfa.fr>
+ * @license            MIT <https://opensource.org/licenses/MIT>
+ * @link               http://cscfa.fr
+ * @codeCoverageIgnore
  */
 class CSDTCollectionsBundle extends Bundle
 {
