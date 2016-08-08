@@ -61,11 +61,10 @@ trait ValueCollectionTrait
     {
         if ($this->contain($value)) {
             unset($this->content[array_search($value, $this->content)]);
-        } else {
-            $value = null;
+            return $value;
         }
         
-        return $value;
+        return null;
     }
 
     /**

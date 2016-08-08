@@ -174,18 +174,31 @@ class AbstractValueCollectionTest extends \PHPUnit_Framework_TestCase
      * This method is used to generate the
      * data test set of the current class methods.
      * 
-     * @param boolean $internalArray Put the internals values into an array
+     * @return array
+     */
+    public function elementProvider()
+    {
+        $result = array();
+        foreach ($this->elementsProvider() as $value) {
+            $result[] = array($value);
+        }
+        return $result;
+    }
+    
+    /**
+     * Elements provider
+     * 
+     * This method is used to generate the
+     * data test set of the list methods.
      * 
      * @return array
      */
-    public function elementProvider($internalArray = true)
+    public function elementsProvider()
     {
         $result = array();
         for ($index = 0; $index < 20; $index++) {
-            $result[] = $internalArray ? array(mt_rand()) : mt_rand();
-            $result[] = $internalArray ? 
-                array(openssl_random_pseudo_bytes(10)) : 
-                openssl_random_pseudo_bytes(10);
+            $result[] = mt_rand();
+            $result[] = openssl_random_pseudo_bytes(10);
         }
         return $result;
     }
@@ -205,7 +218,7 @@ class AbstractValueCollectionTest extends \PHPUnit_Framework_TestCase
             " is expected to return %s".
             " when the method %s is called";
         
-        $elements = $this->elementProvider(false);
+        $elements = $this->elementsProvider();
         
         $reflector = new \ReflectionClass($this->testInstance);
         $propertyReflection = $reflector->getProperty("content");
@@ -255,7 +268,7 @@ class AbstractValueCollectionTest extends \PHPUnit_Framework_TestCase
             " is expected to return %s".
             " when the method %s is called".
             " with the arguments [ %s ]";
-        $elements = $this->elementProvider(false);
+        $elements = $this->elementsProvider();
         
         $reflector = new \ReflectionClass($this->testInstance);
         $propertyReflection = $reflector->getProperty("content");
