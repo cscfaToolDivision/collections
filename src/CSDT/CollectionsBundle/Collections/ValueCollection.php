@@ -24,10 +24,10 @@ use CSDT\CollectionsBundle\AbstractCollections\AbstractValueCollection;
  * a collection of value instance.
  *
  * @category Collection
- * @package Hephaistos
- * @author matthieu vallance <matthieu.vallance@cscfa.fr>
- * @license MIT <https://opensource.org/licenses/MIT>
- * @link http://cscfa.fr
+ * @package  Hephaistos
+ * @author   matthieu vallance <matthieu.vallance@cscfa.fr>
+ * @license  MIT <https://opensource.org/licenses/MIT>
+ * @link     http://cscfa.fr
  */
 class ValueCollection extends AbstractValueCollection
 {
