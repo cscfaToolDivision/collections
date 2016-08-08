@@ -175,6 +175,7 @@ class AbstractValueCollectionTest extends \PHPUnit_Framework_TestCase
      * data test set of the current class methods.
      * 
      * @return array
+     * @codeCoverageIgnore
      */
     public function elementProvider()
     {
