@@ -79,4 +79,6 @@ removeAll(array $keys) | as remove but for a set of keys | return an array of va
 
 :white_check_mark: phpunit tested (code coverage done)
 
-See the [doc](doc)
+See the doc :
+	* [code coverage](https://cdn.rawgit.com/cscfaToolDivision/collections/master/doc/coverage.html/index.html)
+	* [code documentation](https://cdn.rawgit.com/cscfaToolDivision/collections/master/doc/phpdox/html/namespaces.xhtml)
