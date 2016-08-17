@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <title>phpDox - CSDT\CollectionsBundle\Collections\ContainerCollection</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css" media="screen"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+  </head>
+  <body>
+    <nav class="topnav">
+      <ul>
+        <li>
+          <div class="logo"><span>/**</span>phpDox</div>
+        </li>
+        <li class="separator">
+          <a href="../index.xhtml">Overview</a>
+        </li>
+        <li class="separator">
+          <a href="../namespaces.xhtml">Namespaces</a>
+        </li>
+        <li>
+          <a href="../interfaces.xhtml">Interfaces</a>
+        </li>
+        <li>
+          <a href="../classes.xhtml">Classes</a>
+        </li>
+        <li>
+          <a href="../traits.xhtml">Traits</a>
+        </li>
+        <li class="separator">
+          <a href="../source/index.xhtml">Source</a>
+        </li>
+      </ul>
+    </nav>
+    <div id="mainstage">
+      <div class="box">
+        <ul class="breadcrumb">
+          <li>
+            <a href="../index.xhtml">Overview</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml">Classes</a>
+          </li>
+          <li class="separator">
+            <a href="../classes.xhtml#CSDT_CollectionsBundle_Collections">CSDT\CollectionsBundle\Collections</a>
+          </li>
+          <li class="separator">ContainerCollection</li>
+        </ul>
+      </div>
+      <nav class="box">
+        <ul>
+          <li>
+            <a href="#introduction">Introduction</a>
+          </li>
+          <li>
+            <a href="#synopsis">Synopsis</a>
+          </li>
+          <li>
+            <a href="#hierarchy">Hierarchy</a>
+          </li>
+          <li>
+            <a href="#members">Members</a>
+          </li>
+          <li>
+            <a href="#methods">Methods</a>
+          </li>
+          <li>
+            <a href="../source/CSDT/CollectionsBundle/Collections/ContainerCollection.php.xhtml#line34">Source</a>
+          </li>
+        </ul>
+      </nav>
+      <section>
+        <h1 id="introduction"><small>CSDT\CollectionsBundle\Collections\</small>ContainerCollection</h1>
+        <h4>Container collection</h4>
+        <p>This class is used to create<br/>a collection of assiociative<br/>keys values with support of<br/>subset creation.</p>
+        <ul>
+          <li>Author: matthieu vallance &lt;matthieu.vallance@cscfa.fr&gt;</li>
+          <li>License: MIT &lt;https://opensource.org/licenses/MIT&gt;</li>
+        </ul>
+        <h2 id="synopsis">Synopsis</h2>
+        <div class="synopsis">class ContainerCollection
+                extends <a title="CSDT\CollectionsBundle\AbstractCollections\AbstractContainerCollection" href="../classes/CSDT_CollectionsBundle_AbstractCollections_AbstractContainerCollection.xhtml">AbstractContainerCollection</a>
+            {<br/><ul class="none"><li>// Inherited members from <span title="CSDT\CollectionsBundle\AbstractCollections\AbstractCollection">AbstractCollection</span></li><li>protected array <a href="#members">$content</a>;
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="CSDT\CollectionsBundle\TraitCollection\IteratorAggragateTrait">IteratorAggragateTrait</span></li><li>public ArrayIterator <a title="CSDT\CollectionsBundle\TraitCollection\IteratorAggragateTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_IteratorAggragateTrait/getIterator.xhtml">getIterator</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="CSDT\CollectionsBundle\TraitCollection\NumberizedCollectionTrait">NumberizedCollectionTrait</span></li><li>public boolean <a title="CSDT\CollectionsBundle\TraitCollection\NumberizedCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_NumberizedCollectionTrait/isEmpty.xhtml">isEmpty</a>()
+                        </li><li>public integer <a title="CSDT\CollectionsBundle\TraitCollection\NumberizedCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_NumberizedCollectionTrait/count.xhtml">count</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="CSDT\CollectionsBundle\TraitCollection\ClearableCollectionTrait">ClearableCollectionTrait</span></li><li>public array <a title="CSDT\CollectionsBundle\TraitCollection\ClearableCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_ClearableCollectionTrait/clear.xhtml">clear</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="CSDT\CollectionsBundle\TraitCollection\ContainerCollectionTrait">ContainerCollectionTrait</span></li><li>public boolean <a title="CSDT\CollectionsBundle\TraitCollection\ContainerCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_ContainerCollectionTrait/contain.xhtml">contain</a>()
+                        </li><li>public boolean <a title="CSDT\CollectionsBundle\TraitCollection\ContainerCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_ContainerCollectionTrait/containAll.xhtml">containAll</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="CSDT\CollectionsBundle\TraitCollection\ArrayContentCollectionTrait">ArrayContentCollectionTrait</span></li><li>public array <a title="CSDT\CollectionsBundle\TraitCollection\ArrayContentCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_ArrayContentCollectionTrait/toArray.xhtml">toArray</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="CSDT\CollectionsBundle\TraitCollection\MapCollectionTrait">MapCollectionTrait</span></li><li>public boolean <a title="CSDT\CollectionsBundle\TraitCollection\MapCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_MapCollectionTrait/has.xhtml">has</a>()
+                        </li><li>public mixed|null <a title="CSDT\CollectionsBundle\TraitCollection\MapCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_MapCollectionTrait/get.xhtml">get</a>()
+                        </li><li>public MapCollectionInterface <a title="CSDT\CollectionsBundle\TraitCollection\MapCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_MapCollectionTrait/set.xhtml">set</a>()
+                        </li><li>public MapCollectionInterface <a title="CSDT\CollectionsBundle\TraitCollection\MapCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_MapCollectionTrait/setAll.xhtml">setAll</a>()
+                        </li><li>public mixed <a title="CSDT\CollectionsBundle\TraitCollection\MapCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_MapCollectionTrait/remove.xhtml">remove</a>()
+                        </li><li>public array <a title="CSDT\CollectionsBundle\TraitCollection\MapCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_MapCollectionTrait/removeAll.xhtml">removeAll</a>()
+                        </li></ul><ul class="none"><li>// Inherited methods from <span title="CSDT\CollectionsBundle\TraitCollection\SubsetableCollectionTrait">SubsetableCollectionTrait</span></li><li>public ContainerCollectionInterface <a title="CSDT\CollectionsBundle\TraitCollection\SubsetableCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_SubsetableCollectionTrait/getSubset.xhtml">getSubset</a>()
+                        </li><li>protected void <a title="CSDT\CollectionsBundle\TraitCollection\SubsetableCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_SubsetableCollectionTrait/fromArray.xhtml">fromArray</a>()
+                        </li></ul>
+
+            }<br/></div>
+        <h2 id="hierarchy">Hierarchy</h2>
+        <div class="styled">
+          <h4>Extends</h4>
+          <ul>
+            <li>
+              <a title="CSDT\CollectionsBundle\AbstractCollections\AbstractContainerCollection" href="../classes/CSDT_CollectionsBundle_AbstractCollections_AbstractContainerCollection.xhtml">CSDT\CollectionsBundle\AbstractCollections\AbstractContainerCollection</a>
+            </li>
+          </ul>
+        </div>
+        <h2 id="members">Members</h2>
+        <div class="styled members">
+          <h4>protected</h4>
+          <ul class="members">
+            <li id="content"><strong>$content</strong>
+                —
+                array<br/><span class="indent">Content</span></li>
+          </ul>
+        </div>
+        <h2 id="methods">Methods</h2>
+        <div class="styled">
+          <h3>Inherited from <a title="CSDT\CollectionsBundle\TraitCollection\IteratorAggragateTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_IteratorAggragateTrait.xhtml">CSDT\CollectionsBundle\TraitCollection\IteratorAggragateTrait</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="getIterator"><a title="CSDT\CollectionsBundle\TraitCollection\IteratorAggragateTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_IteratorAggragateTrait/getIterator.xhtml">getIterator()</a>
+                — Get iterator</li>
+          </ul>
+          <h3>Inherited from <a title="CSDT\CollectionsBundle\TraitCollection\NumberizedCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_NumberizedCollectionTrait.xhtml">CSDT\CollectionsBundle\TraitCollection\NumberizedCollectionTrait</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="count"><a title="CSDT\CollectionsBundle\TraitCollection\NumberizedCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_NumberizedCollectionTrait/count.xhtml">count()</a>
+                — Count</li>
+            <li id="isEmpty"><a title="CSDT\CollectionsBundle\TraitCollection\NumberizedCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_NumberizedCollectionTrait/isEmpty.xhtml">isEmpty()</a>
+                — Is empty</li>
+          </ul>
+          <h3>Inherited from <a title="CSDT\CollectionsBundle\TraitCollection\ClearableCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_ClearableCollectionTrait.xhtml">CSDT\CollectionsBundle\TraitCollection\ClearableCollectionTrait</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="clear"><a title="CSDT\CollectionsBundle\TraitCollection\ClearableCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_ClearableCollectionTrait/clear.xhtml">clear()</a>
+                — Clear</li>
+          </ul>
+          <h3>Inherited from <a title="CSDT\CollectionsBundle\TraitCollection\ContainerCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_ContainerCollectionTrait.xhtml">CSDT\CollectionsBundle\TraitCollection\ContainerCollectionTrait</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="contain"><a title="CSDT\CollectionsBundle\TraitCollection\ContainerCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_ContainerCollectionTrait/contain.xhtml">contain()</a>
+                — Contain</li>
+            <li id="containAll"><a title="CSDT\CollectionsBundle\TraitCollection\ContainerCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_ContainerCollectionTrait/containAll.xhtml">containAll()</a>
+                — Contain all</li>
+          </ul>
+          <h3>Inherited from <a title="CSDT\CollectionsBundle\TraitCollection\ArrayContentCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_ArrayContentCollectionTrait.xhtml">CSDT\CollectionsBundle\TraitCollection\ArrayContentCollectionTrait</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="toArray"><a title="CSDT\CollectionsBundle\TraitCollection\ArrayContentCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_ArrayContentCollectionTrait/toArray.xhtml">toArray()</a>
+                — To array</li>
+          </ul>
+          <h3>Inherited from <a title="CSDT\CollectionsBundle\TraitCollection\MapCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_MapCollectionTrait.xhtml">CSDT\CollectionsBundle\TraitCollection\MapCollectionTrait</a></h3>
+          <h4>public</h4>
+          <ul>
+            <li id="get"><a title="CSDT\CollectionsBundle\TraitCollection\MapCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_MapCollectionTrait/get.xhtml">get()</a>
+                — Get</li>
+            <li id="has"><a title="CSDT\CollectionsBundle\TraitCollection\MapCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_MapCollectionTrait/has.xhtml">has()</a>
+                — Has</li>
+            <li id="remove"><a title="CSDT\CollectionsBundle\TraitCollection\MapCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_MapCollectionTrait/remove.xhtml">remove()</a>
+                — Remove</li>
+            <li id="removeAll"><a title="CSDT\CollectionsBundle\TraitCollection\MapCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_MapCollectionTrait/removeAll.xhtml">removeAll()</a>
+                — Remove all</li>
+            <li id="set"><a title="CSDT\CollectionsBundle\TraitCollection\MapCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_MapCollectionTrait/set.xhtml">set()</a>
+                — Set</li>
+            <li id="setAll"><a title="CSDT\CollectionsBundle\TraitCollection\MapCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_MapCollectionTrait/setAll.xhtml">setAll()</a>
+                — Set all</li>
+          </ul>
+          <h3>Inherited from <a title="CSDT\CollectionsBundle\TraitCollection\SubsetableCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_SubsetableCollectionTrait.xhtml">CSDT\CollectionsBundle\TraitCollection\SubsetableCollectionTrait</a></h3>
+          <h4>protected</h4>
+          <ul>
+            <li id="fromArray"><a title="CSDT\CollectionsBundle\TraitCollection\SubsetableCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_SubsetableCollectionTrait/fromArray.xhtml">fromArray()</a>
+                — From array</li>
+          </ul>
+          <h4>public</h4>
+          <ul>
+            <li id="getSubset"><a title="CSDT\CollectionsBundle\TraitCollection\SubsetableCollectionTrait" href="../traits/CSDT_CollectionsBundle_TraitCollection_SubsetableCollectionTrait/getSubset.xhtml">getSubset()</a>
+                — Get subset</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <footer>
+      <span>Generated using phpDox 0.8.0 - Copyright (C) 2010 - 2016 by Arne Blankerts</span>
+    </footer>
+  </body>
+</html>
