@@ -65,6 +65,24 @@ setAll(array $assocArray) | as set, but for an associative array | as set | MapC
 remove($key) | remove a key from the collection | return the content of the key before deletion, or NULL if not currently stored | MapCollectionTrait
 removeAll(array $keys) | as remove but for a set of keys | return an array of values corresponding to the deleted key values | MapCollectionTrait
 
+#### Container collection
+
+method | purpose | return | trait
+-------|---------|--------|-------
+clear()  | clear the collection content | return an array representative of the content before clear | ClearableCollectionTrait
+contain($element) | check if the collection contain a specified value | TRUE if it contain or FALSE | ContainerCollectionTrait
+containAll(array $elements) | as 'contain' but for a set of value | as 'contain' method. Return TRUE if all values are contained | ContainerCollectionTrait
+isEmpty() | check if the collection is empty or not | TRUE if the collection is empty or FALSE | NumberizedCollectionTrait
+count() | return the count of elements into the collection | the count as integer | NumberizedCollectionTrait
+toArray() | normalize the current collection to array | the representative array of the collection | ArrayContentCollectionTrait
+has() | check if the collection contain a specified key | TRUE if the key exist, or FALSE | MapCollectionTrait
+get($key) | get the content of a key from the collection | the content of the key, or NULL if not currently stored | MapCollectionTrait
+set($key, $value) | set the content for a given key or create it if not currently stored | the collection to allow chained call | MapCollectionTrait
+setAll(array $assocArray) | as set, but for an associative array | as set | MapCollectionTrait
+remove($key) | remove a key from the collection | return the content of the key before deletion, or NULL if not currently stored | MapCollectionTrait
+removeAll(array $keys) | as remove but for a set of keys | return an array of values corresponding to the deleted key values | MapCollectionTrait
+getSubset($key) | create a subset of the key content | return a ContainerCollectionInterface containing the value of the key, or an empty one if the key does not exist on is not an array or a CllectionInterface | SubsetableCollectionTrait
+
 ## A note of quality check
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/5f5871aa-5969-4441-a509-5eb79afac3a4/mini.png)](https://insight.sensiolabs.com/projects/5f5871aa-5969-4441-a509-5eb79afac3a4)
