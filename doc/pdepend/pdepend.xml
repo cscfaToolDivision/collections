@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metrics generated="2016-08-17T14:08:12" pdepend="2.2.4" ahh="1.6" andc="0.28571428571429" calls="149" ccn="49" ccn2="49" cloc="1112" clsa="2" clsc="9" eloc="947" fanout="20" leafs="5" lloc="313" loc="2246" maxDIT="2" ncloc="1134" noc="11" nof="0" noi="3" nom="38" nop="7" roots="4">
+  <files>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/AbstractCollections/AbstractCollection.php" loc="57" cloc="34" eloc="17" lloc="9" ncloc="23"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/AbstractCollections/AbstractMapCollection.php" loc="39" cloc="28" eloc="8" lloc="4" ncloc="11"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/AbstractCollections/AbstractValueCollection.php" loc="41" cloc="28" eloc="9" lloc="5" ncloc="13"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/CSDTCollectionsBundle.php" loc="36" cloc="27" eloc="6" lloc="2" ncloc="9"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/Collections/MapCollection.php" loc="36" cloc="27" eloc="6" lloc="2" ncloc="9"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/Collections/ValueCollection.php" loc="35" cloc="26" eloc="6" lloc="2" ncloc="9"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/DependencyInjection/CSDTCollectionsExtension.php" loc="58" cloc="37" eloc="17" lloc="11" ncloc="21"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/DependencyInjection/Configuration.php" loc="52" cloc="35" eloc="13" lloc="7" ncloc="17"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/Tests/AbstractCollections/AbstractCollectionTest.php" loc="344" cloc="83" eloc="230" lloc="48" ncloc="261"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/Tests/AbstractCollections/AbstractMapCollectionTest.php" loc="412" cloc="90" eloc="279" lloc="61" ncloc="322"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/Tests/AbstractCollections/AbstractValueCollectionTest.php" loc="320" cloc="101" eloc="187" lloc="59" ncloc="219"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/TraitCollection/ArrayContentCollectionTrait.php" loc="45" cloc="34" eloc="9" lloc="3" ncloc="11"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/TraitCollection/ClearableCollectionTrait.php" loc="49" cloc="35" eloc="11" lloc="5" ncloc="14"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/TraitCollection/ContainerCollectionTrait.php" loc="73" cloc="51" eloc="18" lloc="8" ncloc="22"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/TraitCollection/IteratorAggragateTrait.php" loc="46" cloc="35" eloc="9" lloc="3" ncloc="11"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/TraitCollection/MapCollectionTrait.php" loc="140" cloc="89" eloc="41" lloc="23" ncloc="51"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/TraitCollection/NumberizedCollectionTrait.php" loc="58" cloc="42" eloc="13" lloc="5" ncloc="16"/>
+    <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/TraitCollection/ValueCollectionTrait.php" loc="110" cloc="69" eloc="35" lloc="19" ncloc="41"/>
+  </files>
+  <package name="CSDT\CollectionsBundle\AbstractCollections" noc="3" noi="0" nom="0" nof="0" cr="0.2775" rcr="0.30459375">
+    <class name="AbstractCollection" start="37" end="56" loc="20" cloc="8" eloc="0" lloc="0" ncloc="12" dit="0" noam="0" nocc="2" noom="0" nom="0" cr="0.385875" rcr="0.228625" ca="1" cbo="0" ce="0" impl="2" cis="0" csz="1" npm="0" vars="1" varsi="1" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/AbstractCollections/AbstractCollection.php"/>
+    </class>
+    <class name="AbstractMapCollection" start="34" end="38" loc="5" cloc="1" eloc="0" lloc="0" ncloc="4" dit="1" noam="0" nocc="1" noom="0" nom="0" cr="0.2775" rcr="0.441496875" ca="1" cbo="0" ce="0" impl="3" cis="0" csz="0" npm="0" vars="0" varsi="1" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/AbstractCollections/AbstractMapCollection.php"/>
+    </class>
+    <class name="AbstractValueCollection" start="35" end="40" loc="6" cloc="1" eloc="0" lloc="0" ncloc="5" dit="1" noam="0" nocc="1" noom="0" nom="0" cr="0.2775" rcr="0.441496875" ca="1" cbo="0" ce="0" impl="3" cis="0" csz="0" npm="0" vars="0" varsi="1" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/AbstractCollections/AbstractValueCollection.php"/>
+    </class>
+  </package>
+  <package name="CSDT\CollectionsBundle" noc="1" noi="0" nom="0" nof="0" cr="0.15" rcr="0.2775">
+    <class name="CSDTCollectionsBundle" start="33" end="35" loc="3" cloc="0" eloc="0" lloc="0" ncloc="3" dit="2" noam="0" nocc="0" noom="0" nom="0" cr="0.15" rcr="0.2775" ca="0" cbo="0" ce="0" impl="0" cis="0" csz="0" npm="0" vars="0" varsi="0" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/CSDTCollectionsBundle.php"/>
+    </class>
+  </package>
+  <package name="CSDT\CollectionsBundle\Collections" noc="2" noi="0" nom="0" nof="0" cr="0.15" rcr="0.4089046875">
+    <class name="MapCollection" start="33" end="35" loc="3" cloc="0" eloc="0" lloc="0" ncloc="3" dit="2" noam="0" nocc="0" noom="0" nom="0" cr="0.15" rcr="0.52527234375" ca="0" cbo="0" ce="0" impl="3" cis="0" csz="0" npm="0" vars="0" varsi="1" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/Collections/MapCollection.php"/>
+    </class>
+    <class name="ValueCollection" start="32" end="34" loc="3" cloc="0" eloc="0" lloc="0" ncloc="3" dit="2" noam="0" nocc="0" noom="0" nom="0" cr="0.15" rcr="0.52527234375" ca="0" cbo="0" ce="0" impl="3" cis="0" csz="0" npm="0" vars="0" varsi="1" varsnp="0" wmc="0" wmci="0" wmcnp="0">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/Collections/ValueCollection.php"/>
+    </class>
+  </package>
+  <package name="CSDT\CollectionsBundle\DependencyInjection" noc="2" noi="0" nom="2" nof="0" cr="0.15" rcr="0.405">
+    <class name="CSDTCollectionsExtension" start="36" end="57" loc="22" cloc="10" eloc="7" lloc="5" ncloc="12" dit="2" noam="1" nocc="0" noom="0" nom="1" cr="0.15" rcr="0.2775" ca="0" cbo="5" ce="5" impl="0" cis="1" csz="1" npm="1" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/DependencyInjection/CSDTCollectionsExtension.php"/>
+      <method name="load" start="48" end="56" ccn="1" ccn2="1" loc="9" cloc="0" eloc="7" lloc="5" ncloc="9" npath="1" hnt="22" hnd="35" hv="112.84422637279" hd="4.75" hl="0.21052631578947" he="536.01007527075" ht="29.778337515042" hb="0.021995172922992" hi="23.756679236377" mi="67.059071472124"/>
+    </class>
+    <class name="Configuration" start="35" end="51" loc="17" cloc="7" eloc="5" lloc="3" ncloc="10" dit="0" noam="0" nocc="0" noom="0" nom="1" cr="0.15" rcr="0.2775" ca="1" cbo="2" ce="2" impl="1" cis="1" csz="1" npm="1" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/DependencyInjection/Configuration.php"/>
+      <method name="getConfigTreeBuilder" start="44" end="50" ccn="1" ccn2="1" loc="7" cloc="0" eloc="5" lloc="3" ncloc="7" npath="1" hnt="10" hnd="14" hv="38.073549220576" hd="5.4" hl="0.18518518518519" he="205.59716579111" ht="11.422064766173" hb="0.011611549046499" hi="7.0506572630696" mi="73.550644962182"/>
+    </class>
+  </package>
+  <package name="CSDT\CollectionsBundle\Tests\AbstractCollections" noc="3" noi="0" nom="20" nof="0" cr="0.15" rcr="0.245625">
+    <class name="AbstractCollectionTest" start="32" end="343" loc="312" cloc="57" eloc="217" lloc="39" ncloc="255" dit="2" noam="6" nocc="0" noom="0" nom="6" cr="0.15" rcr="0.1925" ca="0" cbo="4" ce="4" impl="0" cis="6" csz="7" npm="6" vars="1" varsi="1" varsnp="0" wmc="6" wmci="6" wmcnp="6">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/Tests/AbstractCollections/AbstractCollectionTest.php"/>
+      <method name="setUp" start="53" end="58" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="9" hnd="12" hv="32.26466250649" hd="3.5" hl="0.28571428571429" he="112.92631877272" ht="6.273684376262" hb="0.0077876936547209" hi="9.2184750018544" mi="76.168054897769"/>
+      <method name="testGetIterator" start="68" end="95" ccn="1" ccn2="1" loc="28" cloc="0" eloc="24" lloc="6" ncloc="28" npath="1" hnt="29" hnd="55" hv="167.65943169222" hd="5.1666666666667" hl="0.19354838709677" he="866.24039707644" ht="48.124466504247" hb="0.030290355288755" hi="32.45021258559" mi="54.182144651844"/>
+      <method name="testNumberized" start="105" end="166" ccn="1" ccn2="1" loc="62" cloc="0" eloc="57" lloc="9" ncloc="62" npath="1" hnt="41" hnd="110" hv="278.03574825451" hd="4.6274509803922" hl="0.21610169491525" he="1286.5967958444" ht="71.477599769134" hb="0.039431235853667" hi="60.083996444831" mi="44.449281310229"/>
+      <method name="testClear" start="176" end="220" ccn="1" ccn2="1" loc="45" cloc="0" eloc="37" lloc="9" ncloc="45" npath="1" hnt="37" hnd="84" hv="236.51574464281" hd="5.4473684210526" hl="0.18357487922705" he="1288.388398449" ht="71.577133247167" hb="0.039467833032375" hi="43.418349258101" mi="49.035001732759"/>
+      <method name="testContainer" start="231" end="318" ccn="1" ccn2="1" loc="88" cloc="0" eloc="82" lloc="11" ncloc="88" npath="1" hnt="43" hnd="170" hv="318.60381025392" hd="4.2926829268293" hl="0.23295454545455" he="1367.6651366998" ht="75.98139648332" hb="0.04107068341457" hi="74.220205797788" mi="40.589834350359"/>
+      <method name="testToArray" start="328" end="342" ccn="1" ccn2="1" loc="15" cloc="0" eloc="13" lloc="2" ncloc="15" npath="1" hnt="17" hnd="25" hv="78.94555522617" hd="4.4545454545455" hl="0.22448979591837" he="351.6665641893" ht="19.53703134385" hb="0.01660731656563" hi="17.722471581385" mi="62.280863461049"/>
+    </class>
+    <class name="AbstractMapCollectionTest" start="32" end="411" loc="380" cloc="64" eloc="265" lloc="51" ncloc="316" dit="2" noam="7" nocc="0" noom="0" nom="7" cr="0.15" rcr="0.1925" ca="0" cbo="3" ce="3" impl="0" cis="7" csz="8" npm="7" vars="1" varsi="1" varsnp="0" wmc="7" wmci="7" wmcnp="7">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/Tests/AbstractCollections/AbstractMapCollectionTest.php"/>
+      <method name="setUp" start="53" end="58" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="9" hnd="12" hv="32.26466250649" hd="3.5" hl="0.28571428571429" he="112.92631877272" ht="6.273684376262" hb="0.0077876936547209" hi="9.2184750018544" mi="76.168054897769"/>
+      <method name="testHas" start="68" end="103" ccn="1" ccn2="1" loc="36" cloc="0" eloc="30" lloc="7" ncloc="36" npath="1" hnt="35" hnd="74" hv="217.33086779701" hd="5.0142857142857" hl="0.1994301994302" he="1089.7590656679" ht="60.542170314882" hb="0.035299271208604" hi="43.342338307097" mi="51.279072273581"/>
+      <method name="testGet" start="113" end="149" ccn="1" ccn2="1" loc="37" cloc="0" eloc="31" lloc="7" ncloc="37" npath="1" hnt="35" hnd="76" hv="218.67746297053" hd="5" hl="0.2" he="1093.3873148526" ht="60.743739714035" hb="0.035377578174062" hi="43.735492594105" mi="50.949648158404"/>
+      <method name="testSet" start="159" end="216" ccn="1" ccn2="1" loc="58" cloc="0" eloc="50" lloc="9" ncloc="58" npath="1" hnt="43" hnd="121" hv="297.51111920281" hd="4.728813559322" hl="0.21146953405018" he="1406.8746145353" ht="78.159700807517" hb="0.041851947723931" hi="62.914537752565" mi="45.484724557496"/>
+      <method name="testRemove" start="226" end="260" ccn="1" ccn2="1" loc="35" cloc="0" eloc="30" lloc="7" ncloc="35" npath="1" hnt="37" hnd="76" hv="231.17331799741" hd="5.8571428571429" hl="0.17073170731707" he="1354.0151482706" ht="75.223063792809" hb="0.040796956055051" hi="39.468615267851" mi="51.091304242455"/>
+      <method name="testSetAll" start="271" end="336" ccn="1" ccn2="1" loc="66" cloc="0" eloc="59" lloc="9" ncloc="66" npath="1" hnt="41" hnd="133" hv="289.26657985555" hd="4.8515625" hl="0.2061191626409" he="1403.3948913304" ht="77.966382851691" hb="0.041782908975485" hi="59.623385219823" mi="44.00215219232"/>
+      <method name="testRemoveAll" start="346" end="410" ccn="1" ccn2="1" loc="65" cloc="0" eloc="61" lloc="10" ncloc="65" npath="1" hnt="41" hnd="163" hv="301.29785432347" hd="5.5844155844156" hl="0.17906976744186" he="1682.572433235" ht="93.476246290833" hb="0.047155019068014" hi="53.953336704436" mi="43.562413398756"/>
+    </class>
+    <class name="AbstractValueCollectionTest" start="32" end="319" loc="288" cloc="75" eloc="173" lloc="49" ncloc="213" dit="2" noam="7" nocc="0" noom="0" nom="7" cr="0.15" rcr="0.1925" ca="0" cbo="3" ce="3" impl="0" cis="7" csz="8" npm="7" vars="1" varsi="1" varsnp="0" wmc="9" wmci="9" wmcnp="9">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/Tests/AbstractCollections/AbstractValueCollectionTest.php"/>
+      <method name="setUp" start="53" end="58" ccn="1" ccn2="1" loc="6" cloc="0" eloc="4" lloc="2" ncloc="6" npath="1" hnt="9" hnd="12" hv="32.26466250649" hd="3.5" hl="0.28571428571429" he="112.92631877272" ht="6.273684376262" hb="0.0077876936547209" hi="9.2184750018544" mi="76.168054897769"/>
+      <method name="testAdd" start="72" end="109" ccn="1" ccn2="1" loc="38" cloc="0" eloc="32" lloc="8" ncloc="38" npath="1" hnt="34" hnd="79" hv="214.32854543802" hd="4.3157894736842" hl="0.23170731707317" he="924.99688031146" ht="51.388715572859" hb="0.0316450357489" hi="49.661492235639" mi="50.709956649957"/>
+      <method name="testRemove" start="123" end="169" ccn="1" ccn2="1" loc="47" cloc="0" eloc="42" lloc="10" ncloc="47" npath="1" hnt="37" hnd="100" hv="245.82267902166" hd="5.0744680851064" hl="0.19706498951782" he="1247.4193392908" ht="69.301074405044" hb="0.038626651429748" hi="48.443043664647" mi="47.716829120955"/>
+      <method name="elementProvider" start="180" end="187" ccn="2" ccn2="2" loc="8" cloc="0" eloc="7" lloc="4" ncloc="8" npath="2" hnt="12" hnd="21" hv="52.707809073345" hd="11.25" hl="0.088888888888889" he="592.96285207513" ht="32.942380670841" hb="0.023526847440141" hi="4.6851385842973" mi="69.239464759526"/>
+      <method name="elementsProvider" start="197" end="205" ccn="2" ccn2="2" loc="9" cloc="0" eloc="8" lloc="5" ncloc="9" npath="2" hnt="17" hnd="34" hv="86.486868301256" hd="9.1666666666667" hl="0.10909090909091" he="792.79629276151" ht="44.044238486751" hb="0.028553092507744" hi="9.4349310874097" mi="66.468471083203"/>
+      <method name="testAddAll" start="216" end="255" ccn="1" ccn2="1" loc="40" cloc="0" eloc="33" lloc="9" ncloc="40" npath="1" hnt="35" hnd="80" hv="221.26748332106" hd="4.4210526315789" hl="0.22619047619048" he="978.23518941941" ht="54.34639941219" hb="0.032847899215616" hi="50.048597417858" mi="50.321544758378"/>
+      <method name="testRemoveAll" start="266" end="318" ccn="1" ccn2="1" loc="53" cloc="0" eloc="47" lloc="11" ncloc="53" npath="1" hnt="41" hnd="123" hv="284.64309471891" hd="5.2105263157895" hl="0.19191919191919" he="1483.1403356406" ht="82.396685313368" hb="0.043351112068374" hi="54.628472723831" mi="46.205369094604"/>
+    </class>
+  </package>
+  <package name="CSDT\CollectionsBundle\TraitCollection" noc="0" noi="0" nom="0" nof="0">
+    <trait name="ArrayContentCollectionTrait" start="30" end="44" ca="0" cbo="0" ce="0" impl="0" cis="1" csz="1" npm="1" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/TraitCollection/ArrayContentCollectionTrait.php"/>
+      <method name="toArray" start="40" end="43" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="5" hnd="5" hv="11.609640474437" hd="8" hl="0.125" he="92.877123795494" ht="5.1598402108608" hb="0.0068362496969366" hi="1.4512050593046" mi="82.001716149821"/>
+    </trait>
+    <trait name="ClearableCollectionTrait" start="30" end="48" ca="0" cbo="0" ce="0" impl="0" cis="1" csz="1" npm="1" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/TraitCollection/ClearableCollectionTrait.php"/>
+      <method name="clear" start="41" end="47" ccn="1" ccn2="1" loc="7" cloc="0" eloc="5" lloc="3" ncloc="7" npath="1" hnt="8" hnd="13" hv="29.603517745129" hd="6.75" hl="0.14814814814815" he="199.82374477962" ht="11.101319154423" hb="0.011393141056223" hi="4.3857063326117" mi="74.315825259718"/>
+    </trait>
+    <trait name="ContainerCollectionTrait" start="30" end="72" ca="0" cbo="0" ce="0" impl="0" cis="2" csz="2" npm="2" vars="0" varsi="0" varsnp="0" wmc="4" wmci="4" wmcnp="4">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/TraitCollection/ContainerCollectionTrait.php"/>
+      <method name="contain" start="44" end="47" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="11" hnd="11" hv="38.05374780501" hd="6.125" hl="0.16326530612245" he="233.07920530569" ht="12.948844739205" hb="0.01262450710429" hi="6.2128567844915" mi="78.391627559531"/>
+      <method name="containAll" start="62" end="71" ccn="3" ccn2="3" loc="10" cloc="0" eloc="8" lloc="4" ncloc="10" npath="3" hnt="14" hnd="19" hv="59.47098518821" hd="9.75" hl="0.1025641025641" he="579.84210558505" ht="32.213450310281" hb="0.023178495587379" hi="6.0995882244318" mi="67.472810857455"/>
+    </trait>
+    <trait name="IteratorAggragateTrait" start="30" end="45" ca="0" cbo="1" ce="1" impl="0" cis="1" csz="1" npm="1" vars="0" varsi="0" varsnp="0" wmc="1" wmci="1" wmcnp="1">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/TraitCollection/IteratorAggragateTrait.php"/>
+      <method name="getIterator" start="41" end="44" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="8" hnd="8" hv="24" hd="9" hl="0.11111111111111" he="216" ht="12" hb="0.012" hi="2.6666666666667" mi="79.793333921501"/>
+    </trait>
+    <trait name="MapCollectionTrait" start="30" end="139" ca="0" cbo="1" ce="1" impl="0" cis="6" csz="6" npm="6" vars="0" varsi="0" varsnp="0" wmc="8" wmci="8" wmcnp="8">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/TraitCollection/MapCollectionTrait.php"/>
+      <method name="has" start="43" end="46" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="9" hnd="9" hv="28.529325012981" hd="6" hl="0.16666666666667" he="171.17595007788" ht="9.5097750043269" hb="0.010276389970974" hi="4.7548875021635" mi="79.267620989406"/>
+      <method name="get" start="60" end="67" ccn="2" ccn2="2" loc="8" cloc="0" eloc="6" lloc="3" ncloc="8" npath="2" hnt="11" hnd="15" hv="42.975796551694" hd="7" hl="0.14285714285714" he="300.83057586186" ht="16.712809770103" hb="0.014965574571529" hi="6.1393995073848" mi="71.320575292153"/>
+      <method name="set" start="79" end="83" ccn="1" ccn2="1" loc="5" cloc="0" eloc="4" lloc="2" ncloc="5" npath="1" hnt="10" hnd="11" hv="34.594316186373" hd="5.25" hl="0.19047619047619" he="181.62015997846" ht="10.090008887692" hb="0.010690256224877" hi="6.5893935593091" mi="75.956050577813"/>
+      <method name="setAll" start="95" end="102" ccn="2" ccn2="2" loc="8" cloc="0" eloc="6" lloc="3" ncloc="8" npath="2" hnt="14" hnd="18" hv="58.378950020192" hd="7.0714285714286" hl="0.14141414141414" he="412.82257514279" ht="22.934587507933" hb="0.018480811513986" hi="8.2556090937646" mi="70.389081065797"/>
+      <method name="remove" start="114" end="119" ccn="1" ccn2="1" loc="6" cloc="0" eloc="5" lloc="3" ncloc="6" npath="1" hnt="13" hnd="22" hv="57.972611042285" hd="5.0555555555556" hl="0.1978021978022" he="293.08375582488" ht="16.28243087916" hb="0.014707535686211" hi="11.467109876496" mi="72.272080880364"/>
+      <method name="removeAll" start="131" end="138" ccn="1" ccn2="1" loc="8" cloc="0" eloc="6" lloc="4" ncloc="8" npath="1" hnt="14" hnd="27" hv="66.568425030289" hd="4.375" hl="0.22857142857143" he="291.23685950751" ht="16.179825528195" hb="0.014645683282023" hi="15.215640006923" mi="70.124385200468"/>
+    </trait>
+    <trait name="NumberizedCollectionTrait" start="30" end="57" ca="0" cbo="0" ce="0" impl="0" cis="2" csz="2" npm="2" vars="0" varsi="0" varsnp="0" wmc="2" wmci="2" wmcnp="2">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/TraitCollection/NumberizedCollectionTrait.php"/>
+      <method name="isEmpty" start="40" end="43" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="7" hnd="7" hv="19.651484454403" hd="18" hl="0.055555555555556" he="353.72672017926" ht="19.651484454403" hb="0.016672113445041" hi="1.0917491363557" mi="80.401219851729"/>
+      <method name="count" start="53" end="56" ccn="1" ccn2="1" loc="4" cloc="0" eloc="3" lloc="1" ncloc="4" npath="1" hnt="7" hnd="7" hv="19.651484454403" hd="6.25" hl="0.16" he="122.82177784002" ht="6.8234321022233" hb="0.0082362400950509" hi="3.1442375127045" mi="80.401219851729"/>
+    </trait>
+    <trait name="ValueCollectionTrait" start="30" end="109" ca="0" cbo="1" ce="1" impl="0" cis="4" csz="4" npm="4" vars="0" varsi="0" varsnp="0" wmc="8" wmci="8" wmcnp="8">
+      <file name="/var/lib/jenkins/workspace/cscfa_tool_division/collections/src/CSDT/CollectionsBundle/TraitCollection/ValueCollectionTrait.php"/>
+      <method name="add" start="42" end="46" ccn="1" ccn2="1" loc="5" cloc="0" eloc="4" lloc="2" ncloc="5" npath="1" hnt="9" hnd="10" hv="29.897352853986" hd="7" hl="0.14285714285714" he="209.2814699779" ht="11.626748332106" hb="0.011749857421146" hi="4.2710504077123" mi="76.399782248769"/>
+      <method name="remove" start="60" end="68" ccn="2" ccn2="2" loc="9" cloc="0" eloc="7" lloc="4" ncloc="9" npath="2" hnt="14" hnd="23" hv="63.329867384798" hd="8.4375" hl="0.11851851851852" he="534.34575605923" ht="29.685875336624" hb="0.021949619103585" hi="7.5057620604205" mi="68.681168942425"/>
+      <method name="addAll" start="80" end="86" ccn="2" ccn2="2" loc="7" cloc="0" eloc="6" lloc="3" ncloc="7" npath="2" hnt="11" hnd="14" hv="41.880904142634" hd="6.3" hl="0.15873015873016" he="263.84969609859" ht="14.658316449922" hb="0.013712494850049" hi="6.6477625623228" mi="71.399053058647"/>
+      <method name="removeAll" start="99" end="108" ccn="3" ccn2="3" loc="10" cloc="0" eloc="9" lloc="5" ncloc="10" npath="3" hnt="16" hnd="26" hv="75.207035490257" hd="10.388888888889" hl="0.096256684491979" he="781.31753537101" ht="43.406529742834" hb="0.028276812986728" hi="7.2391798867628" mi="65.643092966241"/>
+    </trait>
+  </package>
+</metrics>
