@@ -83,6 +83,21 @@ remove($key) | remove a key from the collection | return the content of the key 
 removeAll(array $keys) | as remove but for a set of keys | return an array of values corresponding to the deleted key values | MapCollectionTrait
 getSubset($key) | create a subset of the key content | return a ContainerCollectionInterface containing the value of the key, or an empty one if the key does not exist on is not an array or a CllectionInterface | SubsetableCollectionTrait
 
+#### Value set
+
+method | purpose | return | trait
+-------|---------|--------|-------
+clear()  | clear the collection content | return an array representative of the content before clear | ClearableCollectionTrait
+contain($element) | check if the collection contain a specified value | TRUE if it contain or FALSE | ContainerCollectionTrait
+containAll(array $elements) | as 'contain' but for a set of value | as 'contain' method. Return TRUE if all values are contained | ContainerCollectionTrait
+isEmpty() | check if the collection is empty or not | TRUE if the collection is empty or FALSE | NumberizedCollectionTrait
+count() | return the count of elements into the collection | the count as integer | NumberizedCollectionTrait
+toArray() | normalize the current collection to array | the representative array of the collection | ArrayContentCollectionTrait
+add($value) | add a value to the collection. It will not be inserted if it not unique in the current content without throwing any exception | return itself to allow chained call | ValueCollectionTrait
+addAll(array $values) | as add, but for a set of value | as add | ValueCollectionTrait
+remove($value) | remove a value from the collection | return the deleted element or NULL if not currently stored | ValueCollectionTrait
+removeAll(array $value) | as remove but for a set of value | return an array containing the deleted elements. Can be empty | ValueCollectionTrait
+
 ## A note of quality check
 
 [![SensioLabsInsight](https://insight.sensiolabs.com/projects/5f5871aa-5969-4441-a509-5eb79afac3a4/mini.png)](https://insight.sensiolabs.com/projects/5f5871aa-5969-4441-a509-5eb79afac3a4)
