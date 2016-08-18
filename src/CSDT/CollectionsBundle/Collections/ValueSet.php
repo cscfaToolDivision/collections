@@ -24,10 +24,10 @@ use CSDT\CollectionsBundle\AbstractCollections\AbstractValueSet;
  * a collection of unique values.
  *
  * @category Collection
- * @package Hephaistos
- * @author matthieu vallance <matthieu.vallance@cscfa.fr>
- * @license MIT <https://opensource.org/licenses/MIT>
- * @link http://cscfa.fr
+ * @package  Hephaistos
+ * @author   matthieu vallance <matthieu.vallance@cscfa.fr>
+ * @license  MIT <https://opensource.org/licenses/MIT>
+ * @link     http://cscfa.fr
  */
 class ValueSet extends AbstractValueSet
 {
