@@ -16,7 +16,6 @@
 namespace CSDT\CollectionsBundle\CollectionHelper\HelperInterface;
 
 use CSDT\CollectionsBundle\CollectionInterfaces\CollectionInterface;
-use CSDT\CollectionsBundle\CollectionInterfaces\MapCollectionInterface;
 
 /**
  * Collection helper interface

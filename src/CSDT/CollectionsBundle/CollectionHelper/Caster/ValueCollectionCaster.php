@@ -17,7 +17,6 @@ namespace CSDT\CollectionsBundle\CollectionHelper\Caster;
 
 use CSDT\CollectionsBundle\CollectionHelper\HelperInterface\ArrayCasterInterface;
 use CSDT\CollectionsBundle\CollectionInterfaces\ValueCollectionInterface;
-use CSDT\CollectionsBundle\Collections\ValueCollection;
 
 /**
  * Value collection caster
