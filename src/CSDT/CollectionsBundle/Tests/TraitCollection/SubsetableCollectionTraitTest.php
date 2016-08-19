@@ -62,8 +62,9 @@ class SubsetableCollectionTraitTest extends \PHPUnit_Framework_TestCase
      * of the Container collections with a no
      * Collection child instance.
      * 
-     * @expectedException \LogicException
-     * @return            void
+     * @expectedException  \LogicException
+     * @return             void
+     * @codeCoverageIgnore
      */
     public function testException()
     {
