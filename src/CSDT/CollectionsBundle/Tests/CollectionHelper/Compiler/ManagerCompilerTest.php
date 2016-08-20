@@ -20,6 +20,7 @@ use Symfony\Component\DependencyInjection\Definition;
 use CSDT\CollectionsBundle\CollectionHelper\Compiler\ManagerCompiler;
 use CSDT\CollectionsBundle\CollectionHelper\Compiler\HelperCompiler;
 use Symfony\Component\DependencyInjection\Reference;
+use CSDT\CollectionsBundle\Collections\MapCollection;
 
 /**
  * Manager Compiler test
@@ -200,14 +201,19 @@ class ManagerCompilerTest extends \PHPUnit_Framework_TestCase
     {
         // @codingStandardsIgnoreEnd
         $names = array();
-        $test = $this;
+        $referenceCollection = new MapCollection();
         
         array_walk(
             $references,
-            function ($reference) use (&$names, $test) {
-                $names[] = $test->getReferenceId($reference);
-            }
+            function ($reference, $index, MapCollection $references) {
+                $references->set($index, $reference);
+            },
+            $referenceCollection
         );
+        
+        foreach ($referenceCollection as $reference) {
+            $names[] = $this->getReferenceId($reference);
+        }
         
         return $names;
     }
