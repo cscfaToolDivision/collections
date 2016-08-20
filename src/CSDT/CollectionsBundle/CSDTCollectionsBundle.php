@@ -16,6 +16,9 @@
 namespace CSDT\CollectionsBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
+use CSDT\CollectionsBundle\CollectionHelper\Compiler\ManagerCompiler;
+use CSDT\CollectionsBundle\CollectionHelper\Compiler\HelperCompiler;
 
 /**
  * CSDT collections bundle
@@ -32,4 +35,24 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  */
 class CSDTCollectionsBundle extends Bundle
 {
+
+    /**
+     * Builds the bundle.
+     *
+     * It is only ever called once when the cache is empty.
+     *
+     * This method can be overridden to register compilation passes,
+     * other extensions, ...
+     *
+     * @param ContainerBuilder $container A ContainerBuilder instance
+     * 
+     * @return void
+     */
+    public function build(ContainerBuilder $container)
+    {
+        parent::build($container);
+        
+        $container->addCompilerPass(new ManagerCompiler());
+        $container->addCompilerPass(new HelperCompiler());
+    }
 }

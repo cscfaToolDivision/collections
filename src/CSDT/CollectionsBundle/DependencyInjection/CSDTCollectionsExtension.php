@@ -52,6 +52,8 @@ class CSDTCollectionsExtension extends Extension
 
         $fileLocator = new FileLocator(__DIR__.'/../Resources/config');
         $loader = new Loader\YamlFileLoader($container, $fileLocator);
-        $loader->load('services.yml');
+        $loader->load('casters.yml');
+        $loader->load('managers.yml');
+        $loader->load('helpers.yml');
     }
 }

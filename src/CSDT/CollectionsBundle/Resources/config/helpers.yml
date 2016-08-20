@@ -1,0 +1,8 @@
+parameters:
+    collection.helper.helper.helper_class: CSDT\CollectionsBundle\CollectionHelper\ConcreteHelper\CollectionHelper
+
+services:
+    collection.helper.std:
+        class: "%collection.helper.helper.helper_class%"
+        tags:
+            - { name: "collection.helper.helper" }

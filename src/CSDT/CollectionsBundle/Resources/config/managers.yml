@@ -1,0 +1,8 @@
+parameters:
+    collection.helper.manager.array_caster_class: CSDT\CollectionsBundle\CollectionHelper\Manager\ArrayCasterManager
+
+services:
+    collection.helper.manager.array_caster:
+        class: "%collection.helper.manager.array_caster_class%"
+        tags:
+            - { name: "collection.helper.manager" }

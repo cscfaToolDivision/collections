@@ -1,0 +1,13 @@
+parameters:
+    collection.helper.caster.value_collection_class: CSDT\CollectionsBundle\CollectionHelper\Caster\ValueCollectionCaster
+    collection.helper.caster.map_collection_class: CSDT\CollectionsBundle\CollectionHelper\Caster\MapCollectionCaster
+
+services:
+    collection.helper.caster.value_collection:
+        class: "%collection.helper.caster.value_collection_class%"
+        tags:
+            - { name: "collection.helper.caster" }
+    collection.helper.caster.map_collection:
+        class: "%collection.helper.caster.map_collection_class%"
+        tags:
+            - { name: "collection.helper.caster" }
