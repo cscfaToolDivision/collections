@@ -49,10 +49,29 @@ abstract class AbstractValueCollection extends AbstractCollection implements Val
      */
     public function get($key)
     {
-        if (isset($this->content[$key])) {
+        if ($this->keyExist($key)) {
             return $this->content[$key];
         }
 
         return null;
+    }
+    
+    /**
+     * Key exist
+     * 
+     * Validate that a given key is used as storage key and return the
+     * validation result as boolean
+     * 
+     * @param mixed $key The storage to validate
+     * 
+     * @return boolean
+     */
+    public function keyExist($key)
+    {
+        if (isset($this->content[$key])) {
+            return true;
+        }
+        
+        return false;
     }
 }
