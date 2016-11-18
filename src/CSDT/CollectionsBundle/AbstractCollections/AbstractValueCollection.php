@@ -1,7 +1,7 @@
 <?php
 /**
  * This file is part of the Hephaistos project management API.
- * 
+ *
  * As each files provides by the CSCFA, this file is licensed
  * under the MIT license.
  *
@@ -35,6 +35,24 @@ use CSDT\CollectionsBundle\TraitCollection\ValueCollectionTrait;
 abstract class AbstractValueCollection extends AbstractCollection implements ValueCollectionInterface
 {
     // @codingStandardsIgnoreEnd
-    
+
     use ValueCollectionTrait;
+
+    /**
+     * Get
+     *
+     * Return the value inserted into the given key, or null if no one value
+     * is stored into the key.
+     *
+     * @param mixed $key The storage key whence return the content
+     * @return mixed|NULL
+     */
+    public function get($key)
+    {
+        if (isset($this->content[$key])) {
+            return $this->content[$key];
+        }
+
+        return null;
+    }
 }
