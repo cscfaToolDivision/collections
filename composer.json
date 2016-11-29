@@ -2,7 +2,6 @@
 	"name" : "cscfa_tool_division/collections",
 	"type" : "symfony-bundle",
 	"description" : "This bundle provide collections class and method to store data",
-	"version" : "1.0.1",
 	"keywords" : [
 		"bundle",
 		"collection",
